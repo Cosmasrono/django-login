@@ -1,0 +1,65 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+ <!--  <a href="{% url 'signup' %}">sign up</a> -->
+
+  <h2>Home</h2>
+  <div class="">
+    welcome to django feel free to step down with me
+  </div>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'path/to/your/css/main.css' %}">
+<div class="">
+  <h1>django importance</h1>
+  <p>Django is an open-source web framework for Python, and it's considered important for several reasons:
+
+    Rapid development: Django allows developers to create web applications quickly and efficiently, thanks to its high-level abstractions, pre-built libraries, and convention-over-configuration approach.
+    
+    Scalability: Django was designed to handle high traffic websites, and its modular architecture makes it easy to scale applications as needed.
+    
+    Security: Django takes security seriously, and it provides built-in protection against common web attacks, such as SQL injection and cross-site scripting (XSS).
+    
+    Large community: Django has a large and active community of developers who contribute to the framework and create third-party packages that extend its functionality. This community provides a wealth of resources and support for developers.
+    
+    Great documentation: Django has excellent documentation, which makes it easy for developers to get started and learn the framework.
+    
+    Versatility: Django is highly versatile and can be used to build a wide variety of web applications, including content management systems, e-commerce sites, and more.
+    
+    Overall, Django is a powerful and flexible web framework that makes it easy for developers to create high-quality web applications quickly and efficiently.</p>
+<h2>campanies that applied django</h2>
+<p>Instagram: Instagram was originally built using Django, and it remains one of the largest and most popular websites built with the framework.
+
+  Mozilla: The popular open-source web browser, Mozilla Firefox, is built on Django.
+  
+  Pinterest: Pinterest, a popular social media site for discovering and sharing ideas, uses Django as its back-end framework.
+  
+  National Geographic: The National Geographic website uses Django to power its content management system and deliver high-quality multimedia content to its users.
+  
+  NASA: NASA's Jet Propulsion Laboratory uses Django to build and manage its web applications, including its mission control system.
+  
+  Bitbucket: Bitbucket, a web-based hosting service for version control repositories, uses Django to power its backend.
+  
+  These are just a few examples of the many companies that have chosen Django to build their websites and web applications. The framework's popularity and versatility make it a great choice for a wide variety of projects.
+  
+  
+  
+  
+  </p>
+  <h1>Importance of Django Restful Framewworks APIs</h1>
+  <p>The importance of Django Rest Framework (DRF) lies in its ability to easily build RESTful APIs for Django-based web applications. RESTful APIs are a type of web API that conform to the architectural constraints of the Representational State Transfer (REST) architectural style. RESTful APIs use HTTP requests to POST (create), PUT (update), GET (read), and DELETE (delete) data, and are often used to expose data from one web application to another, or from a web application to a mobile app.
+
+    By using DRF, developers can quickly and easily build RESTful APIs for their Django applications, which can then be used to power mobile apps, single-page applications, and other client-side applications. This allows for greater separation of concerns between the backend and frontend of an application, and makes it easier to develop, test, and maintain the different components of a web application.
+    
+    DRF also provides many built-in features for authentication, authorization, and other security-related concerns, making it a more secure option for building RESTful APIs than building one from scratch. In addition, DRF's flexible architecture makes it easy to add custom functionality and extend its capabilities to meet the needs of specific projects.
+    
+    Overall, DRF's ease of use, security features, and flexibility make it an important tool for building RESTful APIs in Django-based web applications.
+    
+    
+    
+    
+    </p>
+  </div>
+
+ {% endblock %}
+

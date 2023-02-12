@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+
+lib
+*.lib
+bin
+.cfg
+.bin
+.*db.sqlite3
+db.sqlite3
